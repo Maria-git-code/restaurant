@@ -1,42 +1,6 @@
-﻿
+
 <style>
 
-
-@font-face {
-  font-family: 'Open Sans Italic';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-@font-face {
-  font-family: 'Open Sans Italic';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
 
 @font-face {
   font-family: 'Gentium Book Basic';
@@ -54,22 +18,7 @@
   src: url(https://fonts.gstatic.com/s/gentiumbookbasic/v11/pe0wMJCbPYBVokB1LHA9bbyaQb8ZGjcw65RvzIfZ.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* latin-ext */
-@font-face {
-  font-family: 'Yeseva One';
-  font-style: normal;
-  font-weight: 400;
-  src: url(http://fonts.gstatic.com/s/yesevaone/v15/OpNJno4ck8vc-xYpwWWxliNVWyXD.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Yeseva One';
-  font-style: normal;
-  font-weight: 400;
-  src: url(http://fonts.gstatic.com/s/yesevaone/v15/OpNJno4ck8vc-xYpwWWxli1VWw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+
 
 * {
  margin: 0;
@@ -77,14 +26,13 @@
 }
 
 
+
 p {
 	font-family: 'Lato', sans-serif;
-    font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
+   	font-weight:400;
+	font-size:16px;
+	line-height:24px;
 }
-
-/* header section */
 
 .header{
 	margin:0 auto;
@@ -96,41 +44,39 @@ p {
 	left:180px;	
 	font-family: "Yeseva One"; 
 	font-size: 35.8px; 
-	font-weight: 400; 
-	color: white;
+	font-weight: 700; 
+	color: rgb(256,256,256);
 }
 
-ul {
- list-style:none;
-} 
 
-.topMenu {
-	z-index: 6;
+#topMenu {
 	position:absolute;
-	left:548px;
+	left:573px;
+	width:800px;
 }
  
-.topMenu ul li {
+ 
+.topMenu_item a{
 	float:left;
-}
- 
-.topMenu ul {
-	padding-left:0px;
- }
- 
-.topMenu ul li a{
-	margin-top:0px;
+	margin-top:47px;
 	display:block;
 	text-decoration:none;
-	padding: 48px 25px;
 	font-family: 'Genium Book Basic Bold';
-    font-weight: 700;	
+    	font-weight: 700;	
 	font-size: 21px;
-	color: rgb(255,255,255);
+	color: rgb(245,244,243);
+	border:1px solid transparent;
  }
+
+.topMenu_item{
+	float:left;
+	margin-right:48px;
+
+}
  
-.topMenu ul li a:hover{
-	background: url(images/active_state_header.png) 0px 0px no-repeat; 
+.topMenu_item a:hover{
+	border:1px solid transparent;
+	border-image: url(images/active_state_header_long.png) 5 / 4px 0 0 0 / 48px 0 0 0; 
 	background-position: center top;
 }
 
@@ -139,7 +85,7 @@ ul {
 }
 
 .topmenu_3 {
-	letter-spacing:0.8px;
+	letter-spacing:0.7px;
 }
 
 .topmenu_5 {
@@ -167,11 +113,10 @@ ul {
 }
 
 #header_social_icons a {
-	color: rgb(204,204,51);
+	color: rgb(218,179,62);
 	text-decoration: none;
 }
 
-/* promo section */
 
 #promo {
 	margin:0 auto;
@@ -208,7 +153,7 @@ ul {
 #promo button{
 	width: 228px;
 	height; 57px;
-	padding: 16px;
+	padding: 15px;
 	background: url(images/button_black.png) 0px 0px no-repeat; 
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;	
@@ -216,15 +161,13 @@ ul {
 	color: rgb(255,255,255);
 	float:left;
 	margin:15px;
-	border: 1px solid black;
+	border: 1px solid black; 
 }
  
 #promo button:hover{
 	background: url(images/button_white.png) 0px 0px no-repeat; 
-	border: 1px solid white;
+	border: 1px solid white; 
 }
-
-/* about section */
 
 #about {
 	width:1600px;
@@ -233,14 +176,14 @@ ul {
 	margin:0 auto; 
 }
 
-#about_left {
+#about #about_left {
 	width:430px;
 	margin-left:285px;
 	float:left;
 	text-align:center;
 }
 
-#about_right {
+#about #about_right {
 	float:left;
 	width:670px;
 	height:710px;
@@ -250,7 +193,7 @@ ul {
 #about_heading {
 	margin-top: 110px;
 	margin-bottom:21px;
-	font-family: "Yeseva One"; 
+	font-family: Yeseva One; 
 	font-size: 36px; 
 	font-weight: 400; 
 	color: rgb(204,153,0);
@@ -273,8 +216,6 @@ ul {
     bottom: 0;
     right: 0;
 }
-
-/* ingredients section */
 
 #ingredients {
 	width:1600px;
@@ -314,7 +255,7 @@ ul {
 	margin-right:20px;
 }
 
-/*menu section*/
+
 
 #menu {
 	width:1600px;
@@ -342,15 +283,13 @@ ul {
 	text-align:center;
 }
 
-.menu_heading {
+#menu_heading {
 	padding-top: 39px;
 	font-family: "Yeseva One"; 
-	font-size: 36px; 
-	//line-height: 24px; 
+	font-size: 36px;  
 	font-style: normal; 
 	font-weight: 400; 
 	color: rgb(204,153,0);
-	//color: rgb(0,0,0);
 }
 
 .menu_divider {
@@ -364,10 +303,9 @@ ul {
 	margin-bottom:8px;
 }
 
-.menu_block {
+#menu_block {
 	width:432px;
 	height:98px; 
-	//border: 1px solid black;
 }
 
 .menu_dish_name, .menu_dish_price {
@@ -381,20 +319,18 @@ ul {
 	float: left;
 	font-size: 21px;
 	color: rgb(204,153,0);
-	//color: rgb(0,0,0);
 }
 
 .menu_dish_price {
 	float: right;
 	font-size: 21px;
 	color: rgb(204,153,0);
-	//color: rgb(0,0,0);
 }
 
 .menu_dish_about {
 	float: left;
 	font-size: 16px; 
-	color: rgb(0,0,0);
+	color: rgb(76,76,76);
 }
 
 #dish_special_left {
@@ -414,7 +350,7 @@ ul {
 	left:-12px;;
 }
 
-.menu_marker_special {
+#menu_marker_special {
 	font-family: "Lato";
     font-weight: 400;	
 	font-size: 14px;
@@ -425,8 +361,6 @@ ul {
 	background: url(images/bg_menu_special.png) 0px 0px no-repeat;
 	background-position: bottom;	
 }
-
-/* reviews section */
 
 #reviews {
 	width:1600px;
@@ -486,8 +420,6 @@ ul {
 	color: rgb(255,255,255);
 }
 
-/* reservations section */
-
 #reservations {
 	width:1600px;
 	height:708px;
@@ -496,13 +428,13 @@ ul {
 	position: relative;
 }
 
-#img_reservations1 {
+#reservations #img_reservations1 {
 	float:left;
-	margin-top: 100px;
+	margin-top: 98px;
 	margin-left: 215px;
 }
 
-#img_reservations2 {
+#reservations #img_reservations2 {
 	float:left;
 	margin-top: 100px;
 	margin-left: 30px; 
@@ -514,7 +446,8 @@ ul {
 	float:left;
 	margin-left: 100px;
 	margin-top: 100px;
-	text-align:center;	
+	text-align:center;
+	color: rgb(76,76,76);	
 }
 
 #reservations_heading {
@@ -535,6 +468,7 @@ ul {
 #reservations_text2 {
 	margin-top: 10px;
 }
+
 
 
 #reservations_bookingForm {
@@ -576,13 +510,14 @@ ul {
 	height: 34px;    
 	background: url(images/input_place.png) 0px 0px no-repeat; 
 	background-position: center;
-	font-family: "Open Sans Italic"; 
+	font-family: "Open Sans"; 
 	font-size: 16px; 
 	font-style: italic; 
 	font-weight: 400; 
-	color: rgb(0,0,0);
+	color: rgb(76,76,76);
 	padding-left: 15px;
 	margin-top: 3px;
+	//outline: none;
 	outline: 1px solid rgb(210,210,210);
 }
 
@@ -593,7 +528,7 @@ ul {
 
 
 #btnBookNow {
-	//border: none;
+	border: none;
 	width: 200px;
 	height: 36px;
 	margin-left: 3px;
@@ -603,10 +538,8 @@ ul {
 	font-style: normal; 
 	font-weight: 400; 
 	color: rgb(255,255,255);
-	background: rgb(204,153,51);
+	background: rgb(204,161,49);
 }
-
-/* footer section */
 
 #footer {
     width: 1600px;
@@ -619,7 +552,6 @@ ul {
     width: 1600px;
     height: 320px;
     background-color: rgb(25, 25, 25);
-	//background: url(images/bg_footer_full.png) 0px 0px no-repeat; 
     position: relative;
 }
 
